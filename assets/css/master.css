@@ -103,10 +103,49 @@
   font-size: 20px;
   padding: 10px;
 }
-
-
-
 /* parte centrale navbar laterale */
+
+/* parte sotto nav laterale */
+.dati-utenti{
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  margin-left: 20px;
+  position: absolute;
+  bottom: 5px;
+}
+
+.dati-utenti > span{
+  width: 160px;
+  height: 1px;
+  background-color: #595959;
+  margin-top: 5px;
+}
+
+.dati-utenti a:first-child {
+  text-decoration: none;
+  color: #595959;
+}
+.dati-utenti a:first-child i{
+  margin-right: 10px;
+  color: #595959;
+}
+
+
+.dati-utenti a:last-child {
+  text-decoration: none;
+  color: #ffffff;
+  margin-top: 10px;
+  vertical-align: middle;
+}
+.dati-utenti a:last-child i{
+  color: #595959;
+  margin-right: 5px;
+  font-size: 24px;
+  vertical-align: middle;
+}
+/* parte sotto nav laterale */
+
 /* navbar laterale */
 /* header */
 
@@ -121,6 +160,8 @@ main{
 /* footer */
 footer{
   height: 100px;
+  /* position: relative;
+  z-index: 3; */
   background-color: #282828;
 }
 /* footer */
@@ -182,6 +223,33 @@ and (min-width: 768px){
 
   .dis-none{
     display: none;
+  }
+
+  .dati-utenti{
+    font-size: 0px;
+    margin-left: 0px;
+    align-items: center;
+    justify-content: flex-end;
+    position: static;
+    height: 74%;
+
+  }
+
+  .dati-utenti span{
+    height: 0;
+  }
+
+  .dati-utenti a:first-child i{
+    margin-right: 0px;
+    color: #595959;
+    font-size: 14px;
+  }
+
+  .dati-utenti a:last-child i{
+    margin-right: 0px;
+    color: #595959;
+    font-size: 30px;
+
   }
 
   /* navbar laterale */
