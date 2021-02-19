@@ -3,18 +3,29 @@
   width: 100%;
   height: 100px;
   background-color: #080B12;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
 }
 
 /* button upgrade */
-.upgrade-flex{
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
+.nav-top a{
   color: #ffffff;
+  border: 1px solid #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 40px;
+  border-radius: 30px;
+  font-size: 12px;
+  margin-right: 10px;
 }
 
-.upgrade-flex a{
+.nav-top a:hover{
   color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 15px 40px;
+  font-size: 14px;
 }
 /* button upgrade */
 
