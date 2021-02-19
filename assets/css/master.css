@@ -6,7 +6,10 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
+}
 
+.pos-rel{
+  position: relative;
 }
 
 /* button upgrade */
@@ -29,6 +32,28 @@
 }
 /* button upgrade */
 
+/* navbar laterale */
+.nav-lat{
+  width: 20%;
+  height: calc(100vh - 100px);
+  background-color: #000000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img{
+  width: 60%;
+}
+
+/* navbar laterale */
 /* header */
 
 /* main */
