@@ -202,6 +202,30 @@ main{
 
 /* ascoltati di recente */
 
+.recently > h2{
+  color: #ffffff;
+}
+
+.container-cover{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.cover img{
+  height: 200px;
+}
+
+.cover h4{
+  color: #ffffff;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.cover p{
+  color: #6D6F74;
+  text-align: center;
+}
 
 
 
