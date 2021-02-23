@@ -200,7 +200,7 @@ main{
 }
 /* paragrafi sopra */
 
-/* ascoltati di recente */
+/* ascoltati di recente e creato per te */
 .recently{
   margin: 0 auto;
   width: 98%;
@@ -210,6 +210,11 @@ main{
   color: #ffffff;
   margin-left: 15px;
   font-size: 25px;
+}
+
+.recently > p{
+  color: #505359;
+  margin-left: 15px;
 }
 
 .container-cover{
@@ -239,6 +244,9 @@ main{
   font-size: 13px;
 }
 
+.my-circle img{
+  border-radius: 50%;
+}
 
 
 
