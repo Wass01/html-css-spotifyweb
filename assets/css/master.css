@@ -265,7 +265,6 @@ main{
 }
 
 .over-img{
-  transition: .5s ease;
   opacity: 0;
   position: absolute;
   top: 50%;
@@ -275,8 +274,8 @@ main{
   text-align: center;
 }
 
-.over-img i{
-  font-size: 40px;
+.over-img .fa-play-circle{
+  font-size: 50px;
   color: #ffffff;
 }
 
