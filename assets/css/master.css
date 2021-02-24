@@ -222,21 +222,21 @@ main{
   display: flex;
 }
 
-.cover{
+.poster{
   width: calc(100%/12*2);
   margin-top: 20px;
   padding-left: 15px;
 }
 
 
-.cover h4{
+.poster h4{
   color: #ffffff;
   text-align: center;
   margin-top: 20px;
   font-size: 16px;
 }
 
-.cover p{
+.poster p{
   color: #6D6F74;
   text-align: center;
   font-size: 13px;
@@ -324,6 +324,10 @@ footer{
   font-size: 16px;
   padding-left: 20px;
 }
+
+.icon a:hover{
+  color: #ffffff;
+}
 /* footer left */
 
 /* footer central */
@@ -339,6 +343,10 @@ footer{
 
 .play-section a:nth-child(3){
   font-size: 35px;
+}
+
+.play-section .fa-play-circle:hover{
+  font-size: 40px;
 }
 
 .riproduzione{
@@ -359,6 +367,12 @@ footer{
   margin-left: 30px;
   border-radius: 5px;
 }
+
+.riproduzione div:first-of-type:hover{
+  background-color: #1DB954;
+  
+}
+
 
 .riproduzione div:last-of-type{
   height: 3px;
@@ -407,13 +421,13 @@ and (min-width: 992px){
     flex-wrap: wrap;
   }
 
-  .cover{
+  .poster{
     width: calc(100%/12*3);
-    padding-left: 0px;
+    padding-left: 15px;
   }
 
   .cover img{
-    width: 90%;
+    width: 100%;
   }
 
   /* footer */
@@ -428,6 +442,10 @@ and (min-width: 992px){
 
   .play-section a:nth-child(3){
     font-size: 30px;
+  }
+
+  .play-section .fa-play-circle:hover{
+    font-size: 35px;
   }
 
   .riproduzione div:first-of-type{
@@ -448,7 +466,7 @@ and (min-width: 768px){
     flex-wrap: wrap;
   }
 
-  .cover{
+  .poster{
     width: calc(100%/12*3);
     padding-left: 15px;
   }
@@ -469,6 +487,10 @@ and (min-width: 768px){
 
   .play-section a:nth-child(3){
     font-size: 25px;
+  }
+
+  .play-section .fa-play-circle:hover{
+    font-size: 30px;
   }
 
   .riproduzione div:first-of-type{
@@ -589,7 +611,7 @@ and (min-width: 768px){
       flex-wrap: wrap;
     }
 
-    .cover{
+    .poster{
       width: calc(100%/12*6);
       padding-left: 15px;
     }
@@ -633,6 +655,10 @@ and (min-width: 768px){
 
     .play-section a:nth-child(3){
       font-size: 22px;
+    }
+
+    .play-section .fa-play-circle:hover{
+      font-size: 28px;
     }
 
     .riproduzione div:first-of-type{
@@ -685,6 +711,10 @@ and (min-width: 768px){
 
   .play-section a:nth-child(3){
     font-size: 20px;
+  }
+
+  .play-section .fa-play-circle:hover{
+    font-size: 25px;
   }
 
   .riproduzione div:first-of-type{
