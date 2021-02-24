@@ -8,7 +8,7 @@ header{
 
 .nav-top{
   height: 80px;
-  background-color: #080B12;
+  background-color: rgba(8, 11, 18, 0.8);
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -27,7 +27,7 @@ header{
   padding: 10px 30px;
   border-radius: 30px;
   font-size: 12px;
-  margin-right: 10px;
+  margin-right: 25px;
 }
 
 .nav-top a:hover{
@@ -165,7 +165,7 @@ main{
   width: calc(100% - 200px);
   overflow-y: auto;
   background-color: #141922;
-  margin-top: 80px;
+  padding-top: 80px;
 }
 
 /* paragrafi sopra */
@@ -265,6 +265,7 @@ footer{
 .foot-left{
   display: flex;
   margin-left: 10px;
+  align-items: center;
 }
 
 .song {
@@ -290,9 +291,6 @@ footer{
 .icon a{
   color: #6D6F74;
   font-size: 16px;
-  display: flex;
-  align-items: center;
-  height: 60px;
   padding-left: 20px;
 }
 /* footer left */
@@ -583,9 +581,6 @@ and (min-width: 768px){
     .icon a {
       color: #6D6F74;
       font-size: 13px;
-      display: flex;
-      align-items: center;
-      height: 60px;
       padding-left: 10px;
     }
 
@@ -641,13 +636,10 @@ and (min-width: 768px){
     }
   }
 
-@media all and (max-width: 599px) {
+@media all and (max-width: 580px) {
   .icon a {
     color: #6D6F74;
     font-size: 13px;
-    display: flex;
-    align-items: center;
-    height: 30px;
     padding-left: 10px;
   }
 
@@ -673,4 +665,16 @@ and (min-width: 768px){
     width: 90px;
     margin-right: 5px;
   }
+
+  .foot-right > div,
+  .foot-right a:last-of-type{
+    display: none;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .song{
+    display: none;
+  }
+
 }
