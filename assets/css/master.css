@@ -361,21 +361,28 @@ footer{
 }
 
 .riproduzione div:first-of-type{
-  height: 3px;
+  height: 4px;
   background-color: #ffffff;
   width: 100px;
   margin-left: 30px;
   border-radius: 5px;
 }
 
-.riproduzione div:first-of-type:hover{
+.riproduzione:hover div:first-of-type{
   background-color: #1DB954;
-  
 }
 
+.fa-circle{
+  display: none;
+}
+
+.riproduzione:hover .fa-circle{
+  display: block;
+  color: #ffffff;
+}
 
 .riproduzione div:last-of-type{
-  height: 3px;
+  height: 4px;
   background-color: #6D6F74;
   width: 330px;
   margin-right: 30px;
@@ -396,14 +403,23 @@ footer{
 }
 
 .foot-right div:first-of-type{
-  height: 3px;
+  height: 4px;
   background-color: #ffffff;
   width: 30px;
   border-radius: 5px;
 }
 
+.foot-right:hover div:first-of-type{
+  background-color: #1DB954;
+}
+
+.foot-right:hover .fa-circle{
+  display: block;
+  color: #ffffff;
+}
+
 .foot-right div:last-of-type{
-  height: 3px;
+  height: 4px;
   background-color: #6D6F74;
   width: 80px;
   border-radius: 5px;
